@@ -8,7 +8,7 @@ import java.net.URL;
 import org.json.JSONObject;
 
 public class CurrencyConverter {
-    private static final String API_KEY = "5561b61997cf448798de612d34534d98";
+    private static final String API_KEY = "YOUR_API_KEY";
     private static final String API_URL = "https://openexchangerates.org/api/latest.json?app_id=" + API_KEY;
 
     public static double convertCurrency(double amount, String fromCurrency, String toCurrency) {
